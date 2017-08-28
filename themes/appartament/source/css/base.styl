@@ -63,7 +63,8 @@ hr.small
           color black
           padding 20px
           &:hover, &:focus
-            color white-faded
+            color white
+            text-shadow -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
   @media only screen and (min-width: 1170px)
     -webkit-transition background-color 0.3s
     -moz-transition background-color 0.3s
@@ -120,6 +121,7 @@ hr.small
   .site-heading, .page-heading
     text-align center
     h1
+      text-shadow -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black
       margin-top 0
       font-size 50px
     .subheading
@@ -135,6 +137,7 @@ hr.small
   .post-heading
     h1
       font-size 35px
+      text-shadow -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
     .subheading, .meta
       line-height 1.1
       display block
