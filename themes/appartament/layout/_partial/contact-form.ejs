@@ -1,0 +1,42 @@
+<!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
+<%
+var cover = item.cover || theme.index_cover;
+%>
+<header class="intro-header" style="background-image: url('<%- cover %>')">
+<div class="container">
+<div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-heading">
+            <h1><%- item.title || theme.default_post_title || "Untitled" %></h1>
+            <% if (item.subtitle && item.subtitle.length) { %>
+            <h2 class="post-subheading">
+                <%- item.subtitle %>
+            </h2>
+            <% } %>
+        </div>
+    </div>
+</div>
+</div>
+</header>
+
+<!-- Post Content -->
+<article>
+<div class="container">
+    <div class="row">
+
+        <form action="https://formspree.io/heraldbiewenga@gmail.com" method="POST">
+            
+            <div class="form-group">
+                <label for="email">Email address:</label>
+                <input type="email" name="email" placeholder="Your email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+                <label for="email">Message:</label>
+                <textarea name="message" placeholder="Your message" class="form-control" id="textarea"></textarea>
+            </div>
+            <button type="submit" class="btn btn-default">Send</button>
+        </form>
+    </div>
+</div>
+</article>
