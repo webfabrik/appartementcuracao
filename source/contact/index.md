@@ -1,5 +1,5 @@
 ---
 title: contact
-cover: /img/about-bg.jpg
+cover: /img/contact.gif
 layout: contact
 ---

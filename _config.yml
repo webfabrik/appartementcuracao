@@ -74,6 +74,18 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: appartament
 
+photos:
+- img/gallery/strand.jpg
+- img/gallery/willemstad.jpg
+- img/gallery/keuken.jpg
+- img/gallery/huis.jpg
+- img/gallery/hangmat.jpg
+- img/gallery/balkon.jpg
+- img/gallery/woonkamer.jpg
+- img/gallery/woonkamer1.jpg
+- img/gallery/zwembad.jpg
+- img/gallery/zwembad1.jpg
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:

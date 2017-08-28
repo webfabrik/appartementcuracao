@@ -19,6 +19,18 @@
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <p>Villa Land- en Zeezicht is een prachtige villa waarin u zich gelijk thuis voelt. Deze heerlijke luxe villa biedt ruimte aan twee tot tien personen. Verdeeld over twee appartementen. U kunt wanneer u wilt heerlijk beschut een frisse duik nemen in het grote zwembad en genieten van de Caribische sferen.</p>
+
+            <div class="row">
+            <% if (config.photos.length){ %>
+                <% config.photos.forEach(function(photo){ %>
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
+                        <a href="#" data-featherlight="<%- photo %>">
+                            <img src="<%- photo %>" class="img-thumbnail img-responsive" />
+                        </a>
+                    </div>
+                <% }); %>
+            <% } %>
+            </div>
                 
             <p>Deze villa is gelegen in de wijk Sunset Heights aan de noordkant van Curacao, gelegen op een hoog gedeelte met prachtige uitzichten. De noordkant van het eiland kenmerkt zich door beschermd groengebied en de ruige noordkust. Aan de zuidkust kunt u genieten van de vele stranden die Curacao rijk is. Het is 15 minuten rijden naar de stranden van Piscadera en 20-30 minuten naar die van Jan Thiel en het Spaanse Water.</p>
                 
@@ -32,4 +44,3 @@
         </div>
     </div>
 </div>
-

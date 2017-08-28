@@ -1,6 +1,6 @@
 ---
 title: huurvoorwaarden
-cover: /img/contact-bg.jpg
+cover: /img/huur.jpg
 ---
 
 **Reservering en betaling**
